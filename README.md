@@ -1,6 +1,6 @@
 # animations
 
-> A Vue.js project
+Example project for state transitions with Vue
 
 ## Build Setup
 
