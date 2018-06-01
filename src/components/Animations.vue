@@ -9,6 +9,9 @@
       <tab name="Bind styles or classes">
         <VstyleVclass />
       </tab>
+      <tab name="Transitions">
+        <Transitions />
+      </tab>
     </tabs>
   </div>
 </template>
@@ -16,12 +19,14 @@
 <script>
 import VshowVif from './VshowVif';
 import VstyleVclass from './VstyleVclass';
+import Transitions from './Transitions';
 
 export default {
   name: 'Animations',
   components: {
     VshowVif,
     VstyleVclass,
+    Transitions,
   },
   data() {
     return {
