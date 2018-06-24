@@ -12,6 +12,9 @@
       <tab name="Transitions">
         <Transitions />
       </tab>
+      <tab name="ListTransitions">
+        <ListTransitions />
+      </tab>
     </tabs>
   </div>
 </template>
@@ -20,6 +23,7 @@
 import VshowVif from './VshowVif';
 import VstyleVclass from './VstyleVclass';
 import Transitions from './Transitions';
+import ListTransitions from './ListTransitions';
 
 export default {
   name: 'Animations',
@@ -27,6 +31,7 @@ export default {
     VshowVif,
     VstyleVclass,
     Transitions,
+    ListTransitions,
   },
   data() {
     return {
